@@ -19,3 +19,6 @@ To have it accessible from your mobile run
 yarn dev --host
 ```
 _It must be connected to the same network_
+
+A huge thanks to Quaternius for his free assets!
+https://quaternius.com/packs/toonshootergamekit.html
