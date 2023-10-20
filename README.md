@@ -1,24 +1,18 @@
-![Video Thumbnail](https://img.youtube.com/vi/nQI8UNe6cfA/maxresdefault.jpg)
-
-[Video tutorial](https://youtu.be/nQI8UNe6cfA)
 
 
-Play the game here 👉 https://r3f-playroom-multiplayer-u4.vm.elestio.app/
+![Video Thumbnail](https://img.youtube.com/vi/EzzcEL_1o9o/maxresdefault.jpg)
+
+[Video tutorial](https://youtu.be/EzzcEL_1o9o)
+
+The frontend is [here](https://github.com/wass08/r3f-virtual-girlfriend-frontend).
 
 ## Setup
+Create a `.env` file at the root of the repository to add your **OpenAI** and **ElevenLabs API Keys**. Refer to `.env.example` for the environment variable names.
 
+Download the **RhubarbLibrary** binary for your **OS** [here](https://github.com/DanielSWolf/rhubarb-lip-sync/releases) and put it in your `bin` folder. `rhubarb` executable should be accessible through `bin/rhubarb`.
 
-Install the dependencies and start the development server with
+Start the development server with
 ```
 yarn
 yarn dev
 ```
-
-To have it accessible from your mobile run
-```
-yarn dev --host
-```
-_It must be connected to the same network_
-
-A huge thanks to Quaternius for his free assets!
-https://quaternius.com/packs/toonshootergamekit.html
