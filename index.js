@@ -97,9 +97,12 @@ app.post("/chat", async (req, res) => {
   }
 
   const completion = await openai.chat.completions.create({
-    model: "gpt-3.5-turbo",
+    model: "gpt-3.5-turbo-1106",
     max_tokens: 1000,
     temperature: 0.6,
+    response_format: {
+      type: "json_object",
+    },
     messages: [
       {
         role: "system",
