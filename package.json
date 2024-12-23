@@ -6,10 +6,12 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js --ext js"
+    "dev": "nodemon index.js --ext js",
+    "build": "chmod +x build.sh && ./build.sh"
   },
   "author": "Wawa SENSEI <contact@wawasensei.dev>",
   "dependencies": {
+    "@google/generative-ai": "^0.21.0",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "elevenlabs-node": "^1.2.0",
